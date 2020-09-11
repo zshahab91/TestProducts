@@ -1,0 +1,29 @@
+html {
+  font-size: 10px;
+}
+
+html,
+body {
+  font-family: Vazir, Tahoma, sans-serif;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+#__next {
+  min-height: 100%;
+  display: flex;
+}
+
+.DatePicker {
+  width: 100%;
+}
+
+input {
+  text-align: right;
+}
+
+.ant-form-item-label > label {
+  width: 200px;
+}

@@ -1,0 +1,47 @@
+/*
+ * Typography
+ * ======================================================================== */
+
+/*
+ * Media queries breakpoints
+ * ======================================================================== */
+
+$screen-xs-min: 480px; /* Extra small screen / phone */
+$screen-xs-landscape-min: 576px; /* Extra small landscape screen / phone */
+$screen-sm-min: 768px; /* Small screen / tablet */
+$screen-md-min: 992px; /* Medium screen / desktop */
+$screen-lg-min: 1200px; /* Large screen / wide desktop */
+
+/*
+ * Padding and Margins
+ * ======================================================================== */
+$padding-xs: 5px;
+$padding-sm: 10px;
+$padding-md: 15px;
+$padding-base: 20px;
+$padding-lg: 25px;
+$padding-xl: 30px;
+
+/*
+ * Theme
+ * ======================================================================== */
+
+$color-lendoGreen: #0ac974;
+$color-lendoBlue: #0b2c6e;
+
+/*
+ * color
+ * ======================================================================== */
+$red: red;
+$lightBlue: #1dc4e9;
+$mediumBlue: #3f4d67;
+$textGrey: #a9b7d0;
+$textDarkBlack: #3f4d67;
+$danger: red;
+$warning: orange;
+$info: #1dc4e9;
+
+/*
+ * KIT Style
+ * ======================================================================== */
+$boxShadow: 0 1px 4px rgba(0, 0, 0, 0.1);

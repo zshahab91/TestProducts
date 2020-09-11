@@ -1,0 +1,76 @@
+@import '../variables';
+
+.root {
+  width: 100vw;
+
+  :global {
+    .ant-menu-item-selected {
+      background: transparent !important;
+
+      .anticon {
+        color: $lightBlue !important;
+      }
+    }
+    .ant-layout-header {
+      background: transparent;
+      color: $textDarkBlack;
+    }
+    .ant-layout-sider {
+      background: $mediumBlue;
+      color: $textGrey;
+      box-shadow: 1px 0 20px 0 #3f4d67b8;
+    }
+    .ant-layout-content {
+      padding: 10px 30px 30px;
+    }
+    .ant-menu {
+      background: transparent;
+    }
+    .ant-menu-inline-collapsed {
+      .ant-menu-item,
+      .ant-menu-submenu-title {
+        padding: 0 !important;
+        text-align: center;
+      }
+      .anticon {
+        font-size: 2.4rem !important;
+        margin: 0;
+      }
+    }
+  }
+  .aside {
+    overflow: auto;
+    height: 100vh;
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+
+    .logo {
+      height: 58px;
+      width: 100%;
+      padding: 16px 26px;
+      margin-top: 7px;
+    }
+  }
+  .header {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    padding: 0 30px;
+
+    .title {
+      font-weight: 400;
+      font-size: 1.8rem;
+      color: $mediumBlue;
+    }
+  }
+  .content {
+    margin-right: 100px;
+  }
+  .icon {
+    font-size: 20px;
+    color: $textDarkBlack;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+}
